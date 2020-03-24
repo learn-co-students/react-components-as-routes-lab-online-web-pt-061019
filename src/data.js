@@ -5,7 +5,7 @@ let movies = [
     genres: ['Action', 'Adventure', 'Fantasy'],
     metascore: 74
   },
-  {
+  { 
     title: 'Trolls',
     time: 92,
     genres: ['Animation', 'Adventure', 'Comedy', 'Family', 'Fantasy']
