@@ -1,7 +1,6 @@
 import React from 'react';
 import { movies } from '../data';
 
-// const Movies = () => {
 const movieList = movies.map((movie, index) =>
   <div key={index}>
    <h3>Name: {movie.title}</h3>
