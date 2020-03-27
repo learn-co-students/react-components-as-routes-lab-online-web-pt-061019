@@ -11,7 +11,7 @@ const Actors = () => {
           <h3>Movies:</h3>
           <ul>
             {actor.movies.map(movie => (
-              <li>{movie}</li>
+              <li key={movie}>{movie}</li>
             ))}
           </ul>
         </div>
